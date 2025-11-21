@@ -4,7 +4,7 @@ public class FFT {
     double wtabf[];
     double wtabi[];
     int size;
-    FFT(int sz) {
+    public FFT(int sz) {
         size = sz;
         if ((size & (size-1)) != 0)
             System.out.println("size must be power of two!");
@@ -26,7 +26,7 @@ public class FFT {
         }
     }
 
-    void transform(double data[], boolean inv) {
+    public void transform(double data[], boolean inv) {
         int i;
         int j = 0;
         int size2 = size*2;
