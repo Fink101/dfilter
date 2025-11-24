@@ -27,8 +27,16 @@ from .config import (
     SP500_LUNATIC_CONFIG,
     CONSERVATIVE_CONFIG
 )
+from .optimizer import (
+    StrategyOptimizer,
+    MAJOR_INDICES,
+    MAJOR_STOCKS,
+    CRYPTO_TICKERS,
+    COMMODITIES,
+    SECTORS
+)
 
-__version__ = '1.0.0'
+__version__ = '2.0.0'
 __author__ = 'Lunatic Trader Strategy Implementation'
 
 __all__ = [
@@ -47,4 +55,10 @@ __all__ = [
     'NASDAQ_LUNATIC_CONFIG',
     'SP500_LUNATIC_CONFIG',
     'CONSERVATIVE_CONFIG',
+    'StrategyOptimizer',
+    'MAJOR_INDICES',
+    'MAJOR_STOCKS',
+    'CRYPTO_TICKERS',
+    'COMMODITIES',
+    'SECTORS',
 ]
